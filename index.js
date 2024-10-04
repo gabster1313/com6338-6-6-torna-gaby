@@ -1,6 +1,6 @@
 var hamburgerBtn = document.querySelector('button.hamburger-btn');
 var hamburgerMenu = document.querySelector('.hamburger-menu');
-var menuItems = document.querySelectorAll('.hamburger-menu a'); // Assuming menu items are links
+var menuItems = document.querySelectorAll('.hamburger-menu a');
     // Function to toggle the menu open/close
 var toggleMenu = () => {
 var isMenuOpen = hamburgerMenu.classList.toggle('show-menu');
